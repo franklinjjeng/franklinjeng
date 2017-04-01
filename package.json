@@ -1,0 +1,19 @@
+{
+  "name": "franklinjeng",
+  "version": "1.0.0",
+  "description": "personal webiste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franklinjjeng/franklinjeng.git"
+  },
+  "author": "Franklin Jeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franklinjjeng/franklinjeng/issues"
+  },
+  "homepage": "https://github.com/franklinjjeng/franklinjeng#readme"
+}
