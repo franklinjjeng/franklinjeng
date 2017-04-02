@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider, connect } from "react-redux";
 import { Router, Route, IndexRoute, browserHistory, Redirect } from 'react-router';
 
 import App from './components/app.jsx';

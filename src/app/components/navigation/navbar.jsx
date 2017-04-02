@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-import { connect, mapStateToProps } from 'react-redux';
 
 // UI
 import NavContainer from 'react-bootstrap/lib/Navbar';
