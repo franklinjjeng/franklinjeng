@@ -160,6 +160,93 @@
   font-weight: bold;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("/assets/img/grandCanyon.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_vancouver {
+    /* The image used */
+    background-image: url("/assets/img/vancouverBridge.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_ininOffice {
+    /* The image used */
+    background-image: url("/assets/img/ininOffice.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_ininOffice2 {
+    /* The image used */
+    background-image: url("/assets/img/ininOffice2.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_mtbaldy {
+    /* The image used */
+    background-image: url("/assets/img/mtbaldy.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_me {
+  height: 200px;
+  background-color: white;
+}
+
+.caption {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
 
 /*=======================================*/
 /*=======================================*/
