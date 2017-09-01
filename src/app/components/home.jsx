@@ -15,7 +15,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="home-page">
-        This is the Home Page
+      This is the home page
       </div>
     );
   }

@@ -1,0 +1,88 @@
+.navbar {
+    background-color: #282828;
+    font-color: white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    border: none;
+    position: relative;
+
+}
+
+/*--------- bootstrap CSS changes -------*/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #585958;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white; /*BACKGROUND color for active*/
+  background-color: #282828;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white; /*Change active text color here*/
+}
+
+/*---------------------------------------*/
+
+.fjeng {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.headline {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.home-page, .AboutMe{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+/*============ ABOUT ME PAGE ============*/
+
+/*------------ profile section ----------*/
+.about_profile {
+  display: inline;
+  width: 25%;
+  float: left;
+  margin-right: 15px;
+}
+
+.profile_photo {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .profile_photo {
+    width: 100%;
+  }
+}
+
+/*---------------------------------------*/
+
+/*----------- about me section ----------*/
+.about_me {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  display: inline;
+  float: left;
+  width: 70%;
+}
+
+.about_me_header {
+  font-size: 15px;
+  font-weight: bold;
+}
+/*---------------------------------------*/
+
+/*=======================================*/
+

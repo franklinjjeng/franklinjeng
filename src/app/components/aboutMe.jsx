@@ -5,13 +5,21 @@ export default class AboutMe extends React.Component {
   render() {
     return (
       <div className="AboutMe">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 text-center">
-              <div className="footer-text">
-                <span className="white">About me page</span>
-              </div>
-            </div>
+        <div className="fjeng">Franklin Jeng</div>
+        <div className="headline">THIS IS THE HEADLINE</div>
+
+        <div className="about_profile">
+          <img className="profile_photo" src="/assets/img/fjProfile.png"/>
+          <div className="profile_details">
+            Deets
+          </div>
+        </div>
+
+        <div className="about_me">
+          <div className="about_me_header">About Me:</div>
+          <div className="about_me_content">
+            THIS IS CONTENT. THIS EXPLAINS THINGS ABOUT ME. OH MY HOW THINGS ARE ABOUT ME.
+            What happens if I break the line and keep going?
           </div>
         </div>
       </div>
