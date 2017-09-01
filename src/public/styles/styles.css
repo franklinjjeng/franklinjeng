@@ -1,0 +1,166 @@
+.navbar {
+    background-color: #282828;
+    font-color: white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    border: none;
+    position: relative;
+
+}
+
+/*--------- bootstrap CSS changes -------*/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #585958;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white; /*BACKGROUND color for active*/
+  background-color: #282828;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white; /*Change active text color here*/
+}
+
+/*---------------------------------------*/
+
+
+.home-page, .AboutMe{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*============== HOME PAGE ==============*/
+
+.fjeng {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.headline {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+/*------------ profile section ----------*/
+.profile {
+  display: inline;
+  width: 21%;
+  float: left;
+  margin: 2%;
+}
+
+.profile_photo {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+
+
+/*---------------------------------------*/
+
+/*----------- home blurb section ----------*/
+.home_blurb {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 2%;
+  display: inline;
+  float: left;
+  width: 71%;
+}
+
+/*---------------------------------------*/
+
+/*----------- home navi section ---------*/
+
+.home_nav {
+  display: block;
+  width: 100%;
+  float: left;
+  padding-top: 15px;
+}
+
+.home_nav_buttons {
+  display: inline;
+  float: left;
+  border: 1px solid black;
+  width: 31.3%;
+  height: 100px;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.home_nav_link {
+  text-align: center;
+}
+
+/*---------------------------------------*/
+
+
+@media screen and (max-width: 900px) {
+
+  .profile_photo {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .home_nav_buttons {
+    display: block;
+    width: 47%;
+    margin: 10px 1.5%;
+  }
+}
+  
+
+@media screen and (max-width: 550px) {
+  .profile {
+    display: block;
+    width: 100%;
+    float: none;
+    margin-left: 30%;
+  }
+  .profile_photo {
+    width: 40%;
+  }
+
+  .home_blurb {
+    display: block;
+    width: 90%;
+    float: none;
+    margin: 5%;
+  }
+
+  .home_nav_buttons {
+    display: block;
+    width: 90%;
+    margin: 5%;
+  }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+
+
+
+
+/*============ ABOUT ME PAGE ============*/
+
+.about_me_header {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+/*=======================================*/
+/*=======================================*/
+
