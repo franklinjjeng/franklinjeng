@@ -161,11 +161,7 @@
 }
 
 .parallax {
-      /* The image used */
-    /*
-    background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10524562_10102735673864501_7652567631589012522_n.jpg?oh=d07363626427732c4d11c372d9885898&oe=5A594D06");
-    */
-
+    /* The image used */
     background-image: url("/assets/img/grandCanyon.jpg");
     /* Set a specific height */
     height: 500px; 
@@ -177,9 +173,61 @@
     background-size: cover;
 }
 
+.parallax_vancouver {
+    /* The image used */
+    background-image: url("/assets/img/vancouverBridge.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_ininOffice {
+    /* The image used */
+    background-image: url("/assets/img/ininOffice.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_ininOffice2 {
+    /* The image used */
+    background-image: url("/assets/img/ininOffice2.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_mtbaldy {
+    /* The image used */
+    background-image: url("/assets/img/mtbaldy.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .about_me {
-  height: 500px;
-  background-color: grey;
+  height: 200px;
+  background-color: white;
 }
 
 .caption {

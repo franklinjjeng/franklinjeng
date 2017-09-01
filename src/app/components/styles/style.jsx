@@ -1,3 +1,4 @@
+/*
 const styles = {
   terms: {
     margin: '0',
@@ -24,3 +25,5 @@ const styles = {
 };
 
 export default styles;
+
+*/
