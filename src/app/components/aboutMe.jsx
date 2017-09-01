@@ -8,13 +8,6 @@ export default class AboutMe extends React.Component {
         <div className="fjeng">Franklin Jeng</div>
         <div className="headline">THIS IS THE HEADLINE</div>
 
-        <div className="about_profile">
-          <img className="profile_photo" src="/assets/img/fjProfile.png"/>
-          <div className="profile_details">
-            Deets
-          </div>
-        </div>
-
         <div className="about_me">
           <div className="about_me_header">About Me:</div>
           <div className="about_me_content">
