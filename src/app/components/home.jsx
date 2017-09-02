@@ -49,9 +49,9 @@ export default class Home extends React.Component {
         </div>
         <div className="home_nav">
           <a onClick={this.updatePath} name="/aboutme" className="home_nav_buttons">
-            <div className="home_nav_img">
-              <div className="home_nav_link">About Me</div>
-            </div>
+            <span className="home_nav_link" name="/aboutme">About Me
+              <img className="home_nav_img" name="/aboutme" />
+            </span>
           </a>
           <a onClick={this.updatePath} name="/projects" className="home_nav_buttons home_projects">
             <div className="home_nav_img">
