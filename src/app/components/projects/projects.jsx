@@ -10,7 +10,7 @@ export default class Projects extends React.Component {
 
     var projects = [
       {
-        img: '/assets/img/twinePreview.png',
+        img: '/assets/img/previews/twinePreview.png',
         title: 'Twine',
         link: 'http://twinedocs.com',
         description: 'The mission of this project was to create a simple easy to use word processor online that allows for collaboration for larger projects with the power of Git. Git is a great tool, but can be intimidating to use for non-technical users. Twine abstracts away the complexity of it to create an easy user experience.',
@@ -18,7 +18,7 @@ export default class Projects extends React.Component {
         challenges: 'the challenges'
       },
       {
-        img: '/assets/img/twinePreview.png',
+        img: '/assets/img/previews/divvyPreview2.png',
         title: 'Divvy',
         link: 'N/A',
         description: 'Divvy description',
@@ -26,7 +26,7 @@ export default class Projects extends React.Component {
         challenges: 'the challenges'
       },
       {
-        img: '/assets/img/twinePreview.png',
+        img: '/assets/img/previews/tactictoePreview.png',
         title: 'Tactic Toe',
         link: 'N/A',
         description: 'Tactic Toe description',
