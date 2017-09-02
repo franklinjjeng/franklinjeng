@@ -28,7 +28,7 @@ export default class Navbar extends React.Component {
     return (
       <NavContainer collapseOnSelect className={(pathname === '/' ) ? 'nav-clear' : 'nav-white'}>
             <Nav>
-              <NavItem onClick={this.updatePath} eventKey={1} name="/">Franklin Jeng</NavItem>
+              <NavItem onClick={this.updatePath} eventKey={1} name="/">FJeng</NavItem>
             </Nav>
           <NavContainer.Toggle />
 
