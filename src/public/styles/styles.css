@@ -135,11 +135,11 @@
 }
 
 .home_nav_projects {
-  background-image: url("/assets/img/home/home-projects.jpg");
+  background-image: url("/assets/img/homePage/home-projects.jpg");
 }
 
 .home_nav_resume {
-  background-image: url("/assets/img/home/home-resume.jpg");
+  background-image: url("/assets/img/homePage/home-resume.jpg");
 }
 
 .home_nav_img:hover {
