@@ -34,7 +34,7 @@ export default class Home extends React.Component {
 
         <div className="home_blurb">
           {/*<div className="blurb_header">About Me:</div>*/}
-          <div className="blurb_content">
+          <p className="blurb_content">
             Hi there!
             I'm Franklin and this is a collection of things put together.
             A snippet of my personal life and to showcase my technical prowess.
@@ -43,7 +43,7 @@ export default class Home extends React.Component {
             It also allows me to practice my front end design such as 'responsive web design' and 'parallax scrolling'.
             In fact, this home page layout was designed specifically for responsive web design.
             Go ahead and resize the window!
-          </div>
+          </p>
         </div>
         <div className="home_nav">
           <a onClick={this.updatePath} name="/aboutme" className="home_nav_buttons">

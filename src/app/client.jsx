@@ -6,8 +6,8 @@ import App from './components/app.jsx';
 import Home from './components/home.jsx';
 import NoPage404 from './components/noPage404.jsx';
 import Footer from './components/footer.jsx';
-import AboutMe from './components/aboutMe.jsx';
-import Projects from './components/projects.jsx';
+import AboutMe from './components/aboutMe/aboutMe.jsx';
+import Projects from './components/projects/projects.jsx';
 import Contact from './components/contact.jsx';
 
 function createElement(Component, props) {

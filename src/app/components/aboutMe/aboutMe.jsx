@@ -13,11 +13,11 @@ export default class AboutMe extends React.Component {
         </div>
 
         <div className="about_me">
-          <div className="about_me_header">Summary:</div>
-          <div className="about_me_content">
+          <span className="about_me_header">Summary:</span>
+          <p className="about_me_content">
             THIS IS CONTENT. THIS EXPLAINS THINGS ABOUT ME. OH MY HOW THINGS ARE ABOUT ME.
             What happens if I break the line and keep going?
-          </div>
+          </p>
         </div>
 
         <div className="parallax_ininOffice2">
@@ -27,11 +27,11 @@ export default class AboutMe extends React.Component {
         </div>
 
         <div className="about_me">
-          <div className="about_me_header">My History:</div>
-          <div className="about_me_content">
+          <span className="about_me_header">My History:</span>
+          <p className="about_me_content">
             THIS IS CONTENT. THIS EXPLAINS THINGS ABOUT ME. OH MY HOW THINGS ARE ABOUT ME.
             What happens if I break the line and keep going?
-          </div>
+          </p>
         </div>
 
         <div className="parallax_mtbaldy">
@@ -41,11 +41,11 @@ export default class AboutMe extends React.Component {
         </div>
 
         <div className="about_me">
-          <div className="about_me_header">My Future:</div>
-          <div className="about_me_content">
+          <span className="about_me_header">My Future:</span>
+          <p className="about_me_content">
             THIS IS CONTENT. THIS EXPLAINS THINGS ABOUT ME. OH MY HOW THINGS ARE ABOUT ME.
             What happens if I break the line and keep going?
-          </div>
+          </p>
         </div>
 
 
@@ -56,11 +56,11 @@ export default class AboutMe extends React.Component {
         </div>
 
         <div className="about_me">
-          <div className="about_me_header">Hobbies and Interests:</div>
-          <div className="about_me_content">
+          <span className="about_me_header">Hobbies and Interests:</span>
+          <p className="about_me_content">
             THIS IS CONTENT. THIS EXPLAINS THINGS ABOUT ME. OH MY HOW THINGS ARE ABOUT ME.
             What happens if I break the line and keep going?
-          </div>
+          </p>
         </div>
 
       </div>
