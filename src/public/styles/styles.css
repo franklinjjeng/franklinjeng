@@ -29,7 +29,7 @@
 /*---------------------------------------*/
 
 
-.home-page, .AboutMe{
+.home-page, .AboutMe, .projects, .contact {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -283,3 +283,52 @@ span.border {
 /*=======================================*/
 /*=======================================*/
 
+
+
+/*============= PROJECT PAGE ============*/
+
+.project {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.project_img_container {
+  width: 24%;
+  margin: 2%;
+  float: left;
+  cursor: pointer;
+}
+
+.project_img_container:hover {
+  border: 1px solid black;
+}
+
+.project_img_container_nolink {
+  width: 24%;
+  margin: 2%;
+  float: left;
+}
+
+.project_img {
+  width: 100%;
+}
+
+.project_descriptor {
+  font-weight: bold;
+}
+
+.project_info {
+  display: block;
+  margin: 10px;
+}
+
+.project_details {
+  width: 68%;
+  margin: 2%;
+  float: left;
+}
+
+
+/*=======================================*/
+/*=======================================*/

@@ -5,7 +5,9 @@ export default class AboutMe extends React.Component {
   render() {
     return (
       <div className="AboutMe">
-
+        <div className="coming-soon">
+          coming soon: About Me
+        </div>
         <div className="parallax_vancouver">
           <div className="caption">
             <span className="border">SUMMARY</span>

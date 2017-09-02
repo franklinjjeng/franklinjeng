@@ -9,6 +9,8 @@ export default class Home extends React.Component {
 
   updatePath(e) {
     e.preventDefault();
+    console.log('etn', e.target);
+    console.log('etn', e.target.name);
     const url = e.target.name;
     browserHistory.push(url);
   }
