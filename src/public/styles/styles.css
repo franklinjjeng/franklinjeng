@@ -28,6 +28,10 @@
 
 /*---------------------------------------*/
 
+.body {
+  background: white;
+  background: linear-gradient(to bottom right, #fff, #e5e5e5);
+}
 
 .home-page, .AboutMe, .projects, .contact {
   margin-left: 20px;
@@ -122,9 +126,20 @@
   text-align: center;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  background-image: url("/assets/img/grandCanyon.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.home_nav_aboutme {
+  background-image: url("/assets/img/grandCanyon.jpg");
+}
+
+.home_nav_projects {
+  background-image: url("/assets/img/home/home-projects.jpg");
+}
+
+.home_nav_resume {
+  background-image: url("/assets/img/home/home-resume.jpg");
 }
 
 .home_nav_img:hover {
@@ -310,16 +325,18 @@ span.border {
   margin: 2%;
   float: left;
   cursor: pointer;
+  border: 1px solid blue;
 }
 
 .project_img_container:hover {
-  border: 1px solid black;
+  border: 1px solid red;
 }
 
 .project_img_container_nolink {
   width: 24%;
   margin: 2%;
   float: left;
+  border: 1px solid black;
 }
 
 .project_img {
