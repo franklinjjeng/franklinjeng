@@ -94,6 +94,7 @@
   padding-top: 15px;
 }
 
+/*
 .home_nav_buttons {
   display: inline;
   float: left;
@@ -102,6 +103,7 @@
   margin: 1%;
   cursor: pointer;
 }
+*/
 
 .home_nav_link {
   display: block;
@@ -115,9 +117,17 @@
   max-height: 100%;
   width: 1000px;
   padding: 24%;
+  display: block;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   background-image: url("/assets/img/grandCanyon.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.home_nav_img:hover {
+  color: #d8d8d8;
 }
 
 /*---------------------------------------*/
