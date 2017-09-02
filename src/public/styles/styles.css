@@ -73,6 +73,8 @@
   display: inline;
   float: left;
   width: 71%;
+  padding: 5px;
+  font-size: 15px;
 }
 
 /*---------------------------------------*/
@@ -91,13 +93,24 @@
   float: left;
   border: 1px solid black;
   width: 31.3%;
-  height: 100px;
   margin: 1%;
   cursor: pointer;
 }
 
 .home_nav_link {
   text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.home_nav_img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 1000px;
+  padding: 24%;
+  background-image: url("/assets/img/grandCanyon.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /*---------------------------------------*/
@@ -158,6 +171,19 @@
 .about_me_header {
   font-size: 15px;
   font-weight: bold;
+}
+
+.parallax_home {
+    /* The image used */
+    background-image: url("/assets/img/grandCanyon.jpg");
+    /* Set a specific height */
+    height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax {
@@ -240,8 +266,8 @@
 }
 
 span.border {
-    background-color: #111;
     color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
