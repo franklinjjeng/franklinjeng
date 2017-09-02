@@ -47,16 +47,16 @@ export default class Home extends React.Component {
             Go ahead and resize the window!
           </p>
         </div>
-        
+
         <div className="home_nav">
           <div name="/aboutme" className="home_nav_buttons">
-            <a onClick={this.updatePath} className="home_nav_img" name="/aboutme">About Me</a>
+            <a onClick={this.updatePath} className="home_nav_img home_nav_aboutme" name="/aboutme">About Me</a>
           </div>
           <div name="/projects" className="home_nav_buttons">
-            <a onClick={this.updatePath} className="home_nav_img" name="/projects">Projects</a>
+            <a onClick={this.updatePath} className="home_nav_img home_nav_projects" name="/projects">Projects</a>
           </div>
           <div name="/contact" className="home_nav_buttons">
-            <a onClick={this.updatePath} className="home_nav_img" name="/contact">Resume</a>
+            <a onClick={this.updatePath} className="home_nav_img home_nav_resume" name="/contact">Resume</a>
           </div>
         </div>
 
