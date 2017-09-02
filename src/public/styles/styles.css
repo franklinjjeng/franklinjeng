@@ -1,27 +1,29 @@
 .navbar {
-    background-color: #282828;
-    font-color: white;
     border-radius: 2px;
     margin-bottom: 20px;
     border: none;
     position: relative;
-
+    background-color: #282828;
 }
 
 /*--------- bootstrap CSS changes -------*/
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #585958;  /*Sets the text hover color on navbar*/
+  color: #aaaaaa;  /*Sets the text hover color on navbar*/
 }
 
+
+/*looks like this does nothing right now*/
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
  a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: white; /*BACKGROUND color for active*/
   background-color: #282828;
 }
 
+/*-- sets the nav buttons--*/
 .navbar-default .navbar-nav > li > a {
   color: white; /*Change active text color here*/
+  background-color: #282828;
 }
 
 /*---------------------------------------*/

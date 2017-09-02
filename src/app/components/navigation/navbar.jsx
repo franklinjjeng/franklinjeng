@@ -27,14 +27,11 @@ export default class Navbar extends React.Component {
     const pathname = this.props.props.location.pathname;
     return (
       <NavContainer collapseOnSelect className={(pathname === '/' ) ? 'nav-clear' : 'nav-white'}>
-        <NavContainer.Header>
-          <NavContainer.Brand>
             <Nav>
               <NavItem onClick={this.updatePath} eventKey={1} name="/">Franklin Jeng</NavItem>
             </Nav>
-          </NavContainer.Brand>
           <NavContainer.Toggle />
-        </NavContainer.Header>
+
         <NavContainer.Collapse>
           <Nav className="pull-right">
             <NavItem onClick={this.updatePath} eventKey={2} name="/aboutme">About Me</NavItem>
@@ -46,4 +43,14 @@ export default class Navbar extends React.Component {
     );
   }
 }
+/*
+        <NavContainer.Header>
+          <NavContainer.Brand>
+            <Nav>
+              <NavItem onClick={this.updatePath} eventKey={1} name="/">Franklin Jeng</NavItem>
+            </Nav>
+          </NavContainer.Brand>
+          <NavContainer.Toggle />
+        </NavContainer.Header>
 
+*/
