@@ -16,8 +16,14 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="home-page">
-        <div className="fjeng">Franklin Jeng</div>
-        <div className="headline">THIS IS THE HEADLINE</div>
+        
+        <div className="parallax_home">
+          <div className="caption">
+          </div>
+        </div>
+
+        <div className="border fjeng">Franklin Jeng</div>
+        <div className="border headline">THIS IS THE HEADLINE</div>
 
         <div className="profile">
           <img className="profile_photo" src="/assets/img/fjProfile.png"/>
@@ -41,13 +47,19 @@ export default class Home extends React.Component {
         </div>
         <div className="home_nav">
           <a onClick={this.updatePath} name="/aboutme" className="home_nav_buttons">
-            <div className="home_nav_link">About Me</div>
+            <div className="home_nav_img">
+              <div className="home_nav_link">About Me</div>
+            </div>
           </a>
           <a onClick={this.updatePath} name="/projects" className="home_nav_buttons home_projects">
-            <div className="home_nav_link">Projects</div>
+            <div className="home_nav_img">
+              <div className="home_nav_link">Projects</div>
+            </div>
           </a>
           <a onClick={this.updatePath} name="/contact" className="home_nav_buttons home_resume">
-            <div className="home_nav_link">Resume</div>
+            <div className="home_nav_img">
+              <div className="home_nav_link">Resume</div>
+            </div>
           </a>
         </div>
       </div>
