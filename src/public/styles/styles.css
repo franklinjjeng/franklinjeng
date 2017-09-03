@@ -314,6 +314,11 @@ span.border {
 
 /*============= PROJECT PAGE ============*/
 
+.projects {
+  width: 70%;
+  margin: 10px, 15%;
+}
+
 .project {
   display: block;
   position: relative;
