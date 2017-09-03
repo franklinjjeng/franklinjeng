@@ -15,9 +15,9 @@ export default function Project (props) {
         }
         <div className="project_details">
 
-          <span className="project_info project_title">
-            <span className="project_descriptor">Name: </span>
-            {props.info.link !== 'N/A' ? <span>{props.info.title} - <a href={props.info.link}>{props.info.link}</a></span> : <span>{props.info.title}</span>}
+          <span className="project_info">
+            <span className="project_name">{props.info.title}</span>
+            {props.info.link !== 'N/A' ? <span> - <a href={props.info.link}>{props.info.link}</a></span> : <span></span>}
             <p className="project_blurb">{props.info.blurb}</p>
           </span>
 
