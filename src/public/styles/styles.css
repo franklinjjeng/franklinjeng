@@ -1,6 +1,5 @@
 .navbar {
     border-radius: 2px;
-    margin-bottom: 20px;
     border: none;
     position: relative;
     background-color: #282828;
@@ -33,7 +32,7 @@
   background: linear-gradient(to bottom right, #fff, #e5e5e5);
 }
 
-.home-page, .AboutMe, .projects, .contact {
+.home-page, .AboutMe, .contact {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -315,8 +314,8 @@ span.border {
 /*============= PROJECT PAGE ============*/
 
 .projects {
-  width: 70%;
-  margin: 10px, 15%;
+  width: 1000px;
+  margin: auto;
 }
 
 .project {
@@ -348,6 +347,17 @@ span.border {
   width: 100%;
 }
 
+.project_details {
+  width: 68%;
+  margin: 1px 2%;
+  float: left;
+}
+
+.project_name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .project_descriptor {
   font-weight: bold;
 }
@@ -357,16 +367,37 @@ span.border {
   margin: 10px;
 }
 
-.project_details {
-  width: 68%;
-  margin: 2%;
-  float: left;
-}
-
 .project_blurb {
   font-style: italic;
 }
 
+@media screen and (max-width: 1000px) {
+  .projects {
+    width: 98%;
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .project_img_container {
+    float: left;
+    width: 96%;
+    margin: 2%;
+  }
+
+  .project_img_container_nolink {
+    float: left;
+    width: 96%;
+    margin: 2%;
+  }
+
+  .project_details {
+    float: left;
+    width: 96%;
+    margin: 2%;
+  }
+}
 
 /*=======================================*/
 /*=======================================*/
