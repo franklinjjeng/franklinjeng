@@ -74,6 +74,11 @@
 
 /*---------------------------------------*/
 
+.home_content {
+  width: 900px;
+  margin: auto;
+}
+
 /*----------- home blurb section ----------*/
 .home_blurb {
   border: 1px solid black;
@@ -130,11 +135,11 @@
 }
 
 .home_nav_aboutme {
-  background-image: url("/assets/img/grandCanyon.jpg");
+  background-image: url("/assets/img/homePage/multnomahSelf-min.jpg");
 }
 
 .home_nav_projects {
-  background-image: url("/assets/img/homePage/navProjects.jpg");
+  background-image: url("/assets/img/homePage/navProjects-min.jpg");
 }
 
 .home_nav_resume {
@@ -146,6 +151,15 @@
 }
 
 /*---------------------------------------*/
+
+@media screen and (max-width: 960px) {
+
+  .home_content {
+    width: 96%;
+    margin: 2%;
+  }
+
+}
 
 
 @media screen and (max-width: 900px) {
@@ -166,7 +180,7 @@
 }
   
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .profile {
     display: block;
     width: 100%;
@@ -207,7 +221,7 @@
 
 .parallax_home {
     /* The image used */
-    background-image: url("/assets/img/grandCanyon.jpg");
+    background-image: url("/assets/img/homePage/goldengate.jpg");
     /* Set a specific height */
     height: 200px; 
 
@@ -220,7 +234,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url("/assets/img/grandCanyon.jpg");
+    background-image: url("/assets/img/aboutMe/grandCanyon-min.jpg");
     /* Set a specific height */
     height: 500px; 
 
@@ -233,7 +247,7 @@
 
 .parallax_vancouver {
     /* The image used */
-    background-image: url("/assets/img/vancouverBridge.jpg");
+    background-image: url("/assets/img/aboutMe/vancouverBridge-min.jpg");
     /* Set a specific height */
     height: 500px; 
 
@@ -244,9 +258,11 @@
     background-size: cover;
 }
 
+
+/*not in use*/
 .parallax_ininOffice {
     /* The image used */
-    background-image: url("/assets/img/ininOffice.jpg");
+    background-image: url("/assets/img/aboutMe/ininOffice.jpg");
     /* Set a specific height */
     height: 500px; 
 
@@ -256,10 +272,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .parallax_ininOffice2 {
     /* The image used */
-    background-image: url("/assets/img/ininOffice2.jpg");
+    background-image: url("/assets/img/aboutMe/ininOffice2.jpg");
     /* Set a specific height */
     height: 500px; 
 
@@ -272,7 +289,7 @@
 
 .parallax_mtbaldy {
     /* The image used */
-    background-image: url("/assets/img/mtbaldy.jpg");
+    background-image: url("/assets/img/aboutMe/mtbaldy-min.jpg");
     /* Set a specific height */
     height: 500px; 
 

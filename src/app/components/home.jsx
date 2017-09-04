@@ -27,25 +27,27 @@ export default class Home extends React.Component {
         <div className="border fjeng">Franklin Jeng</div>
         <div className="border headline">THIS IS THE HEADLINE</div>
 
-        <div className="profile">
-          <img className="profile_photo" src="/assets/img/fjProfile.png"/>
-          {/*<div className="profile_details">
-            Deets
-          </div> */}
-        </div>
+        <div className="home_content">
+          <div className="profile">
+            <img className="profile_photo" src="/assets/img/fjProfile.png"/>
+            {/*<div className="profile_details">
+              Deets
+            </div> */}
+          </div>
 
-        <div className="home_blurb">
-          {/*<div className="blurb_header">About Me:</div>*/}
-          <p className="blurb_content">
-            Hi there!
-            I'm Franklin and this is a collection of things put together.
-            A snippet of my personal life and to showcase my technical prowess.
-            This site is somewhat a digital playground. 
-            Everything is built from scratch without the use of WYSIWYG websites utilizing React as its front end framework.
-            It also allows me to practice my front end design such as 'responsive web design' and 'parallax scrolling'.
-            In fact, this home page layout was designed specifically for responsive web design.
-            Go ahead and resize the window!
-          </p>
+          <div className="home_blurb">
+            {/*<div className="blurb_header">About Me:</div>*/}
+            <p className="blurb_content">
+              Hi there!
+              I'm Franklin and this is a collection of things put together.
+              A snippet of my personal life and to showcase my technical prowess.
+              This site is somewhat a digital playground. 
+              Everything is built from scratch without the use of WYSIWYG websites utilizing React as its front end framework.
+              It also allows me to practice my front end design such as 'responsive web design' and 'parallax scrolling'.
+              In fact, this home page layout was designed specifically for responsive web design.
+              Go ahead and resize the window!
+            </p>
+          </div>
         </div>
 
         <div className="home_nav">

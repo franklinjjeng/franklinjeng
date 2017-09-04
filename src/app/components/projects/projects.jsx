@@ -10,7 +10,7 @@ export default class Projects extends React.Component {
 
     var projects = [
       {
-        img: '/assets/img/previews/twinePreview.png',
+        img: '/assets/img/projects/twinePreview-min.png',
         title: 'Twine',
         blurb: 'Browser-based word processor powered with Git',
         link: 'http://twinedocs.com',
@@ -19,7 +19,7 @@ export default class Projects extends React.Component {
         challenges: 'The biggest challenge we faced was working with the WYSIWYG, DraftJS. The method DraftJS stores the element tags and formatting would not always carry over. This would cause issues when determining if there were changes to the document itself. After some testing, we were able to determine the formatting changes that would remain unchanged.'
       },
       {
-        img: '/assets/img/previews/divvyPreview2.png',
+        img: '/assets/img/projects/divvyPreview2.png',
         title: 'Divvy',
         blurb: 'Restaurant bills split intelligently with everyone',
         link: 'http://divvy.franklinjeng.com',
@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
         challenges: 'the challenges'
       },
       {
-        img: '/assets/img/previews/tactictoePreview.png',
+        img: '/assets/img/projects/tactictoePreview.png',
         title: 'Tactic Toe',
         blurb: 'Tic-Tac-Toe with only 3 active pieces',
         link: 'N/A',
