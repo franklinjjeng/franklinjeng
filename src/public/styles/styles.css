@@ -27,9 +27,11 @@
 
 /*---------------------------------------*/
 
-.body {
+body {
+  font-size: 14px;
+  
   background: white;
-  background: linear-gradient(to bottom right, #fff, #e5e5e5);
+  background: linear-gradient(to bottom right, #fff, #fff, #e5e5e5);
 }
 
 .home-page, .AboutMe, .contact {
