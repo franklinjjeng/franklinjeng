@@ -31,7 +31,7 @@ body {
   font-size: 14px;
   
   background: white;
-  background: linear-gradient(to bottom right, #fff, #fff, #e5e5e5);
+  /*background: linear-gradient(to bottom right, #fff, #fff, #e5e5e5);*/
 }
 
 .home-page, .AboutMe, .contact {
@@ -216,10 +216,38 @@ body {
 
 /*============ ABOUT ME PAGE ============*/
 
+.about_me {
+  width: 900px;
+  margin: auto;
+  /*border: 3px solid black;*/
+  background-color: white;
+}
+
 .about_me_header {
   font-size: 15px;
   font-weight: bold;
+  /*border: 2px solid green;*/
 }
+
+.about_me_subhead {
+  text-decoration: underline;
+}
+
+.about_me_content {
+  /*border: 2px solid blue;*/
+
+}
+
+@media screen and (max-width: 950px) {
+  .about_me {
+    width: 90%;
+    margin: 10px 5%;
+  }
+}
+
+
+
+/*----------- parallax section ----------*/
 
 .parallax_home {
     /* The image used */
@@ -234,11 +262,11 @@ body {
     background-size: cover;
 }
 
-.parallax {
+.parallax_grandCanyon {
     /* The image used */
     background-image: url("/assets/img/aboutMe/grandCanyon-min.jpg");
     /* Set a specific height */
-    height: 500px; 
+    height: 450px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -260,22 +288,6 @@ body {
     background-size: cover;
 }
 
-
-/*not in use*/
-.parallax_ininOffice {
-    /* The image used */
-    background-image: url("/assets/img/aboutMe/ininOffice.jpg");
-    /* Set a specific height */
-    height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 .parallax_ininOffice2 {
     /* The image used */
     background-image: url("/assets/img/aboutMe/ininOffice2.jpg");
@@ -293,18 +305,13 @@ body {
     /* The image used */
     background-image: url("/assets/img/aboutMe/mtbaldy-min.jpg");
     /* Set a specific height */
-    height: 500px; 
+    height: 300px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.about_me {
-  height: 200px;
-  background-color: white;
 }
 
 .caption {
@@ -323,6 +330,8 @@ span.border {
     font-size: 25px;
     letter-spacing: 10px;
 }
+
+/*---------------------------------------*/
 
 
 /*=======================================*/
