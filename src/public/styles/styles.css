@@ -242,7 +242,7 @@ body {
 
 .about_me {
   width: 900px;
-  margin: auto;
+  margin: 20px auto;
   /*border: 3px solid black;*/
 }
 
@@ -463,7 +463,7 @@ span.border {
   display: block;
   align-content: center;
   text-align: center;
-  margin: 10px;
+  margin: 20px 10px;
   /*border: 3px solid black;*/
 }
 
@@ -479,7 +479,7 @@ span.border {
 
 .resume {
   width: 80%;
-  margin: 10px 10%;
+  margin: 20px 10%;
   display: flex
   justify-content: center;
 }
