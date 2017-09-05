@@ -12,7 +12,7 @@ body {
 #app {
   min-height: 100%;
   min-width: 100%;
-  position: relative;
+  position: absolute;
   background: white;
   background: linear-gradient(to bottom right, #fff, #fff, #e5e5e5);
 }
@@ -273,7 +273,7 @@ body {
     height: 200px; 
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -421,6 +421,10 @@ span.border {
 }
 
 @media screen and (max-width: 1000px) {
+  #app {
+    position: relative;
+  }
+
   .projects {
     width: 98%;
     margin: 1%;
