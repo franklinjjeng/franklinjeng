@@ -25,8 +25,12 @@ export default function Project (props) {
           <span className="project_info project_link">
             <span className="project_descriptor">Link: </span>
               {props.info.link === 'N/A' ? <span>{props.info.link}</span> : <a href={props.info.link}>{props.info.link}</a>}
-            </span>
+          </span>
           */}
+          <span className="project_info project_link">
+            <span className="project_descriptor">GitHub: </span>
+            <a href={props.info.github}>{props.info.github}</a>
+          </span>
 
           <p className="project_info project_description">
             <span className="project_descriptor">Description: </span>{props.info.description}
