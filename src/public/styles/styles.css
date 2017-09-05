@@ -12,7 +12,7 @@ body {
 #app {
   min-height: 100%;
   min-width: 100%;
-  position: absolute;
+  position: relative;
   background: white;
   background: linear-gradient(to bottom right, #fff, #fff, #e5e5e5);
 }
@@ -281,7 +281,7 @@ body {
 
 .parallax_grandCanyon {
     /* The image used */
-    background-image: url("/assets/img/aboutMe/grandCanyon-min.jpg");
+    background-image: url("/assets/img/aboutMe/grandCanyon-min-bottomcrop.jpg");
     /* Set a specific height */
     height: 450px; 
 
@@ -320,7 +320,7 @@ body {
 
 .parallax_mtbaldy {
     /* The image used */
-    background-image: url("/assets/img/aboutMe/mtbaldy-min.jpg");
+    background-image: url("/assets/img/aboutMe/mtbaldy-min-crop.jpg");
     /* Set a specific height */
     height: 300px; 
 
