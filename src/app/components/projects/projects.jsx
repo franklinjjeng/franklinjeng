@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
         blurb: 'Restaurant bills split intelligently with everyone',
         link: 'http://divvy.franklinjeng.com',
         description: 'An intelligent bill splitting app allowing you to record the dishes and split the order based on what each individual person ate. The application also stores your receipt providing you with a history.',
-        contribution: 'The goal of this project was to take on an existing code base and improve it. I refactored all the existing front end architecture. Cleaning out unused lines of code and modified the code for readability. The location of where the data was stored was better organized to allow different components access to the same information and preventing it from being lost moving from page to page. A new receipt scanner was implemented and I created an algorithm to add the data from the receipt to the app itself.',
+        contribution: 'The goal of this project was to take on an existing code base and improve it. I refactored all the existing front end architecture. Cleaning out unused lines of code as well as modifying it for readability. The location of where the data was stored was better organized to allow different components access to the same information and preventing it from being lost moving from page to page. A new receipt scanner was implemented and I created an algorithm to add the data from the receipt to the app itself.',
         challenges: 'the challenges'
       },
       {
