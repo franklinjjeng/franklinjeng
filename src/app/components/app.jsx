@@ -22,8 +22,8 @@ export default class App extends React.Component {
         <Navbar className="navbar" props={this.props} />
         <div className="app-body">
           {this.props.children}
-          {/* <Footer /> */}
         </div>
+        <Footer />
       </div>
     );
   }
