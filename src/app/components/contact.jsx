@@ -18,7 +18,7 @@ export default class Contact extends React.Component {
           </span>
           <br/>
           <span className="contact_details">
-            franklinjjeng@gmail.com
+            <a href="mailto:franklinjjeng@gmail.com">franklinjjeng@gmail.com</a>
           </span>
           <br/>
           <span className="contact_details">
@@ -32,11 +32,11 @@ export default class Contact extends React.Component {
               https://github.com/franklinjjeng/franklinjeng
             </a>
           </span>
-          <div className="resume">
-            <a className="download_img" href="/assets/JengFranklinResume.pdf" target="_blank">
-              <img className="resume_img" src="/assets/img/JengFranklinResume.jpg"></img>
-            </a>
-          </div>
+        </div>
+        <div className="resume">
+          <a className="download_img" href="/assets/JengFranklinResume.pdf" target="_blank">
+            <img className="resume_img" src="/assets/img/JengFranklinResume.jpg"></img>
+          </a>
         </div>
       </div>
     );
