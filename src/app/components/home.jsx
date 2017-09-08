@@ -29,7 +29,7 @@ export default class Home extends React.Component {
 
         <div className="home_content">
           <div className="profile">
-            <img className="profile_photo" src="https://da91a0mi5pgms.cloudfront.net/home/fjProfile.png"/>
+            <img className="profile_photo" src="https://assets.franklinjeng.com/home/fjProfile.png"/>
             {/*<div className="profile_details">
               Deets
             </div> */}

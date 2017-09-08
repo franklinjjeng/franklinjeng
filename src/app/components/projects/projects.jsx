@@ -10,7 +10,7 @@ export default class Projects extends React.Component {
 
     var projects = [
       {
-        img: '/assets/img/projects/twinePreview-min.png',
+        img: 'https://assets.franklinjeng.com/projects/twinePreview.png',
         title: 'Twine',
         blurb: 'Browser-based word processor powered with Git',
         github: 'https://github.com/franklinjjeng/twine',
@@ -20,7 +20,7 @@ export default class Projects extends React.Component {
         challenges: 'The biggest challenge we faced was working with the WYSIWYG, DraftJS. The method DraftJS stores the element tags and formatting would not always carry over. This would cause issues when determining if there were changes to the document itself. After some testing, we were able to determine the formatting changes that would remain unchanged.'
       },
       {
-        img: '/assets/img/projects/divvyPreview2.png',
+        img: 'https://assets.franklinjeng.com/projects/divvyPreview2.png',
         title: 'Divvy',
         blurb: 'Restaurant bills split intelligently with everyone',
         github: 'https://github.com/franklinjjeng/artisanalaioli',
@@ -30,7 +30,7 @@ export default class Projects extends React.Component {
         challenges: 'the challenges'
       },
       {
-        img: '/assets/img/projects/healthwarsPreview.png',
+        img: 'https://assets.franklinjeng.com/projects/healthwarsPreview.png',
         title: 'HealthWars',
         blurb: 'Exercise made fun and competitive',
         github: 'https://github.com/franklinjjeng/HealthWars',
@@ -40,7 +40,7 @@ export default class Projects extends React.Component {
         challenges: 'the challenges'
       },
       {
-        img: '/assets/img/projects/tactictoePreview.png',
+        img: 'https://assets.franklinjeng.com/projects/tactictoePreview.png',
         title: 'Tactic Toe',
         blurb: 'Tic-Tac-Toe with only 3 active pieces',
         github: 'https://github.com/franklinjjeng/tactic_toe',

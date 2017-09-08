@@ -161,15 +161,15 @@ body {
 }
 
 .home_nav_aboutme {
-  background-image: url("https://da91a0mi5pgms.cloudfront.net/home/multnomahSelf-resized.jpg");
+  background-image: url("https://assets.franklinjeng.com/home/multnomahSelf-resized.jpg");
 }
 
 .home_nav_projects {
-  background-image: url("https://da91a0mi5pgms.cloudfront.net/home/navProjects-resize.jpg");
+  background-image: url("https://assets.franklinjeng.com/home/navProjects-resize.jpg");
 }
 
 .home_nav_resume {
-  background-image: url("https://da91a0mi5pgms.cloudfront.net/home/navResume-resize.jpg");
+  background-image: url("https://assets.franklinjeng.com/home/navResume-resize.jpg");
 }
 
 .home_nav_img:hover {
@@ -274,7 +274,7 @@ body {
 
 .parallax_home {
     /* The image used */
-    background-image: url("/assets/img/homePage/san-francisco-streets-cover.jpg");
+    background-image: url("https://assets.franklinjeng.com/home/san-francisco-2361226-crop.jpg");
     /* Set a specific height */
     height: 200px; 
 
@@ -287,7 +287,7 @@ body {
 
 .parallax_grandCanyon {
     /* The image used */
-    background-image: url("https://da91a0mi5pgms.cloudfront.net/grandCanyon-crop2.jpg");
+    background-image: url("https://assets.franklinjeng.com/grandCanyon-crop2.jpg");
     /* Set a specific height */
     height: 450px; 
 
@@ -313,7 +313,7 @@ body {
 
 .parallax_chicagoBean {
     /* The image used */
-    background-image: url("https://da91a0mi5pgms.cloudfront.net/aboutMe/chicagoBean-crop-1920.jpg");
+    background-image: url("https://assets.franklinjeng.com/aboutMe/chicagoBean-crop-1920.jpg");
     /* Set a specific height */
     height: 500px; 
 
