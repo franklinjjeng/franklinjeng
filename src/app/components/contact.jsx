@@ -9,6 +9,8 @@ export default class Contact extends React.Component {
           coming soon: contact and resume
         </div>*/}
         <div className="contact_info">
+          <span className="contact_header">Get In Touch: </span>
+          <br/>
           <span className="contact_name">
             Franklin Jeng
           </span>
@@ -28,8 +30,8 @@ export default class Contact extends React.Component {
           </span>
           <br/>
           <span className="contact_details">
-            <a href="https://github.com/franklinjjeng/franklinjeng">
-              https://github.com/franklinjjeng/franklinjeng
+            <a href="https://github.com/franklinjjeng">
+              https://github.com/franklinjjeng
             </a>
           </span>
         </div>

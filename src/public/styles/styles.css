@@ -432,6 +432,12 @@ body {
   /*border: 2px solid green;*/
 }
 
+.contact_header {
+  /*border: 2px solid blue;*/
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .contact_details {
   /*border: 2px solid blue;*/
   font-size: 16px;
