@@ -45,7 +45,7 @@ export default class AboutMe extends React.Component {
 
         <div className="about_me">
           <span className="about_me_header">Hobbies and Interests:</span>
-          <p className="about_me_content">
+          <div className="about_me_content">
             <span><span className="about_me_subhead">Puzzles</span>: rock climbing, puzzle boxes, puzzle video games, riddles</span>
             <br/>
             <p>
@@ -71,7 +71,7 @@ export default class AboutMe extends React.Component {
               I’d love to explore the world as much as I possibly can to see what's around us.
               I’ve made my way international a couple times, but I definitely want to continue doing so.
             </p>
-          </p>
+          </div>
           <p className="about_me_content">
           </p>
           <p className="about_me_content">
