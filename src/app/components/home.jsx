@@ -25,7 +25,7 @@ export default class Home extends React.Component {
         </div>*/}
 
         <div className="border fjeng">Franklin Jeng</div>
-        <div className="border headline">THIS IS THE HEADLINE</div>
+        <div className="border headline">fullstack software engineer based in SF Bay Area</div>
 
         <div className="home_content">
           <div className="profile">

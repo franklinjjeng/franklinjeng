@@ -24,12 +24,12 @@ body {
 }
 
 .navbar {
-  border-radius: 2px;
   border: none;
   position: relative;
   background-color: #282828;
   padding: 10px;
   margin-bottom: 0px;
+  border-radius: 0 !important;
 }
 
 .app-body {
@@ -92,6 +92,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-bottom: 25px;
+  font-style: italic;
 }
 
 
@@ -361,11 +362,12 @@ body {
     color: #000;
 }
 
-span.border {
+.caption_text {
     color: #fff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     padding: 18px;
     font-size: 25px;
+    font-weight: bold;
     letter-spacing: 10px;
 }
 

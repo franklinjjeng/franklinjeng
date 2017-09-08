@@ -7,36 +7,25 @@ export default class AboutMe extends React.Component {
       <div className="AboutMe">
         <div className="parallax_chicagoBean">
           <div className="caption">
-            <span className="border">SUMMARY</span>
+            <span className="caption_text">ABOUT ME</span>
           </div>
         </div>
 
         <div className="about_me">
           <span className="about_me_header">Summary:</span>
           <p className="about_me_content">
-            I'm a full stack software engineer and I've found that this is my passion.
-            It's a little cliche to say,
-            but I've actually found myself losing sleep over the sheer excitement of trying to figure out what to put on next for this website.
-          </p>
-          <p className="about_me_content">
-            Software engineering feels like solving puzzles to me.
-            Trying to figure out the best algorithm to better optimize a solution or trying to figure out how to manipulate and create components.
-            With my enjoyment and puzzles and my desire to perform technical work,
-            I have found that software engineer sits right at the cross section of the two.
-            The boundless field also constantly offers something new to learn and tackle,
-            unlocking endless possibilities allowing me to stay engaged.
+            I'm a full stack software engineer and I have found that this is my passion.
+            With my enjoyment of puzzles and my desire to perform technical work, software engineer suits me perfectly as it sits right at the cross section of the two.
+            The boundless field constantly offers something new to learn and tackle, allowing me to stay engaged.
           </p>
 
           <span className="about_me_header">My History:</span>
           <p className="about_me_content">
             I graduated from the University of California, Irvine as a Computer Engineer.
-            Shortly after I found my first job as a VoIP engineer,
-            diagnosing and troubleshooting voice quality issues on client environments.
-            The natural career path progression brings you to a business oriented role where I became a Technical Account Manager and after two years in that role I found myself growing complacent.
-            I would feel like I am passing the buck and just looking for the right technical resource to route issues over to.
-            I realized that I lost my feeling of fulfillment that I used to receive when I would be the one solving those issues.
-            I decided to take a course through codeacadamy.com to see if coding was where my interest lies.
-            I immediately fell back in love with it and knew that this was what I wanted to be doing.
+            Shortly after I found my first job as a VoIP engineer, diagnosing and troubleshooting voice quality issues in client environments.
+            The natural career path progression brings you to a business oriented role where I became a Technical Account Manager.
+            After two years, I realized that I lost my feeling of fulfillment that I used to receive when I would be the one solving technical issues.
+            I explored coding courses online and I immediately fell back in love with it.
             I decided to quit my job and move back to the bay area to re-learn coding and become a software engineer.
           </p>
 
@@ -50,7 +39,7 @@ export default class AboutMe extends React.Component {
 
         <div className="parallax_grandCanyon">
           <div className="caption">
-            <span className="border">HOBBIES and INTEREST</span>
+            <span className="caption_text">HOBBIES and INTEREST</span>
           </div>
         </div>
 
@@ -61,8 +50,8 @@ export default class AboutMe extends React.Component {
             <br/>
             <p>
               I enjoy puzzles of all kinds.
-              Ranging from physical activity like rock climbing to determine the correct path and moves to take,
-              to puzzles that require a lot of mental thinking like riddles and logic puzzles.
+              Ranging from physical, like rock climbing to determine the correct path and moves to take,
+              to mental, like riddles and logic puzzles.
               The satisfaction you get once you figure something out is an amazing feeling.
               The desire to push forward and continue attempting it is fueled by the frustration of not being able to solve it.
             </p>
