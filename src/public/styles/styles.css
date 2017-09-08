@@ -289,7 +289,7 @@ body {
 .parallax_grandCanyon {
     background-image: url("https://assets.franklinjeng.com/grandCanyon-crop2.jpg");
     height: 450px; 
-    
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -449,6 +449,7 @@ body {
   height: 40px;
   border: 1px solid black;
   border-radius: 4px;
+  margin: auto;
 }
 
 .download-link {
