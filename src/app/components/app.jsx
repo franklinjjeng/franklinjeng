@@ -2,13 +2,8 @@ import React from 'react';
 import { browserHistory } from 'react-router';
 
 // Components
+import Footer from './footer/footer.jsx';
 import Navbar from './navigation/navbar.jsx';
-import Footer from './footer.jsx';
-
-
-// UI
-// import injectTapEventPlugin from 'react-tap-event-plugin';
-// injectTapEventPlugin();
 
 
 export default class App extends React.Component {

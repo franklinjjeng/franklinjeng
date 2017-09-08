@@ -101,7 +101,6 @@ body {
   display: inline-block;
   width: 21%;
   margin: 2%;
-  float: left;
 }
 
 .profile_photo {
@@ -128,6 +127,7 @@ body {
   width: 71%;
   padding: 5px;
   font-size: 15px;
+  vertical-align: middle;
 }
 
 /*---------------------------------------*/
@@ -177,6 +177,8 @@ body {
 
 .home_nav_img:hover {
   color: #d8d8d8;
+  text-decoration: : none;
+  border-bottom-color: none;
 }
 
 /*---------------------------------------*/
@@ -335,12 +337,10 @@ body {
 
 .project_img_container {
   width: 27%;
-  margin: 1%;
+  margin: 5px 1%;
   cursor: pointer;
   border: 1px solid black;
   display: inline-block;
-  justify-content: center;
-  vertical-align: center;
   float: left;
 }
 
@@ -350,9 +350,10 @@ body {
 
 .project_img_container_nolink {
   width: 27%;
-  margin: 1%;
-  display: inline-block;
+  margin: 5px 1%;
+  cursor: pointer;
   border: 1px solid black;
+  display: inline-block;
   float: left;
 }
 
@@ -378,7 +379,9 @@ body {
 
 .project_info {
   display: block;
-  margin: 10px;
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
 }
 
 .project_blurb {
@@ -487,6 +490,7 @@ body {
 
 .download-link:hover {
   background: #00296d;
+  font-style: none;
   color: #d8d8d8;
 }
 
