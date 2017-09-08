@@ -7,7 +7,7 @@ export default function Project (props) {
       <div className="project">
         {props.info.link === 'N/A' ? 
           <div className="project_img_container_nolink">
-            <img className="project_img" src={props.info.img} />
+            <img className="project_img_nolink" src={props.info.img} />
           </div> :
           <a className="project_img_container" href={props.info.link}>
             <img className="project_img" src={props.info.img} />

@@ -178,6 +178,7 @@ body {
 .home_nav_img:hover {
   color: #d8d8d8;
   text-decoration: none;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
 }
 
 /*---------------------------------------*/
@@ -342,22 +343,31 @@ body {
   border: 1px solid black;
   display: inline-block;
   float: left;
+  background: black;
 }
 
 .project_img_container:hover {
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 
 .project_img_container_nolink {
   width: 27%;
   margin: 5px 1%;
-  cursor: pointer;
   border: 1px solid black;
   display: inline-block;
   float: left;
 }
 
 .project_img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project_img:hover {
+  opacity: 0.7;
+}
+
+.project_img_nolink {
   max-width: 100%;
   max-height: 100%;
 }
