@@ -34,8 +34,8 @@ export default class Contact extends React.Component {
           </span>
         </div>
         <div className="resume">
-          <a className="download_img" href="/assets/JengFranklinResume.pdf" target="_blank">
-            <img className="resume_img" src="/assets/img/JengFranklinResume.jpg"></img>
+          <a className="download_img" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">
+            <img className="resume_img" src="https://assets.franklinjeng.com/contact/JengFranklinResume.png"></img>
           </a>
         </div>
       </div>
