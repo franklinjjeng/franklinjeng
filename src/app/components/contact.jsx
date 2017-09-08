@@ -8,8 +8,8 @@ export default class Contact extends React.Component {
         {/*<div className="coming-soon">
           coming soon: contact and resume
         </div>*/}
+        <div className="contact_header">Get In Touch: </div>
         <div className="contact_info">
-          <span className="contact_header">Get In Touch: </span>
           <br/>
           <span className="contact_name">
             Franklin Jeng
@@ -35,8 +35,10 @@ export default class Contact extends React.Component {
             </a>
           </span>
         </div>
-        <div className="download-resume">
-          <a className="download-link" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">Download Resume</a>
+        <div className="contact_skills">
+          <div className="download-resume">
+            <a className="download-link" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">Download Resume</a>
+          </div>
         </div>
 
       </div>

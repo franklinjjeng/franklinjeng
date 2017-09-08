@@ -69,7 +69,7 @@ body {
 /*---------------------------------------*/
 
 
-.home-page, .contact {
+.home-page {
   /*margin-left: 20px;*/
   /*margin-right: 20px;*/
   /*margin-bottom: 50px;*/
@@ -418,12 +418,27 @@ body {
 
 /*============ CONTACT PAGE =============*/
 
-.contact_info {
+.contact {
+  margin: 30px auto;
+  width: 1000px;
+}
+
+.contact_header {
+  /*border: 2px solid blue;*/
+  font-size: 30px;
+  font-weight: bold;
   display: block;
-  align-content: center;
   text-align: center;
-  margin: 20px 10px;
-  /*border: 3px solid black;*/
+  margin: auto;
+}
+
+.contact_info {
+  display: inline-block;
+  width: 50%;
+  padding: 0px 5%;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-right: 3px solid black;
 }
 
 .contact_name {
@@ -432,15 +447,17 @@ body {
   /*border: 2px solid green;*/
 }
 
-.contact_header {
-  /*border: 2px solid blue;*/
-  font-size: 30px;
-  font-weight: bold;
-}
-
 .contact_details {
   /*border: 2px solid blue;*/
   font-size: 16px;
+}
+
+.contact_skills {
+  display: inline-block;
+  width: 40%;
+  margin: 5%;
+  /*border: 1px solid red;*/
+  float: right;
 }
 
 .resume {
@@ -480,9 +497,28 @@ body {
 }
 
 @media screen and (max-width: 1050px) {
-  .resume {
+  .contact {
     width: 80%;
     margin: 20px 10%;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .contact_info {
+    display: block;
+    width: 90%;
+    margin: 20px 5%;
+    padding: none;
+    border: none;
+    text-align: center;
+  }
+  
+  .contact_skills {
+    display: block;
+    width: 90%;
+    margin: 20px 5%;
+    float: none;
   }
 
 }
