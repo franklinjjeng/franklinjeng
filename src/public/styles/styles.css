@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   font-size: 14px;
   
@@ -12,15 +16,9 @@ body {
 #app {
   min-height: 100%;
   min-width: 100%;
-  position: absolute;
+  position: relative;
   background: white;
   background: linear-gradient(to bottom right, #fff, #fff, #e5e5e5);
-}
-
-@media screen and (max-width: 1000px) {
-  #app {
-    position: relative;
-  }
 }
 
 .navbar {
