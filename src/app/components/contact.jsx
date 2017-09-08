@@ -33,12 +33,17 @@ export default class Contact extends React.Component {
             </a>
           </span>
         </div>
-        <div className="resume">
-          <a className="download_img" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">
-            <img className="resume_img" src="https://assets.franklinjeng.com/contact/JengFranklinResume.png"></img>
-          </a>
+        <div className="download-resume">
+          <a className="download-link" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">Download Resume</a>
         </div>
+
       </div>
     );
   }
 }
+
+        // <div className="resume">
+        //   <a className="download_img" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">
+        //     <img className="resume_img" src="https://assets.franklinjeng.com/contact/JengFranklinResume.png"></img>
+        //   </a>
+        // </div>
