@@ -9,7 +9,6 @@ import Footer from './components/footer.jsx';
 import AboutMe from './components/aboutMe/aboutMe.jsx';
 import Projects from './components/projects/projects.jsx';
 import Contact from './components/contact.jsx';
-import DemoHome from './components/demoHome.jsx';
 
 function createElement(Component, props) {
   return <Component key={`RouteComponent-${props.location.pathname}`} {...props} />;
@@ -21,7 +20,6 @@ export class FranklinJeng extends React.Component {
       <Router history={browserHistory} createElement={createElement} onUpdate={() => window.scrollTo(0, 0)}>
         <Route component={App}>
           <Route path="/" component={Home}/>
-          <Route path="/demoHome" component={DemoHome}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/aboutme" component={AboutMe}/>
           <Route path="/contact" component={Contact}/>

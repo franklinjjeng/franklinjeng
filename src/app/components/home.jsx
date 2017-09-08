@@ -19,10 +19,10 @@ export default class Home extends React.Component {
     return (
       <div className="home-page">
         
-        <div className="parallax_home">
+        {/*<div className="parallax_home">
           <div className="caption">
           </div>
-        </div>
+        </div>*/}
 
         <div className="border fjeng">Franklin Jeng</div>
         <div className="border headline">THIS IS THE HEADLINE</div>

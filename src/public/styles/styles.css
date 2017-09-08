@@ -29,10 +29,10 @@ body {
   position: relative;
   background-color: #282828;
   padding: 10px;
+  margin-bottom: 0px;
 }
 
 .app-body {
-  padding: 10px;
   padding-bottom: 70px;
 }
 
@@ -69,10 +69,11 @@ body {
 /*---------------------------------------*/
 
 
-.home-page, .AboutMe, .contact {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px;
+.home-page, .contact {
+  /*margin-left: 20px;*/
+  /*margin-right: 20px;*/
+  /*margin-bottom: 50px;*/
+  margin: 30px 20px;
 }
 
 .coming-soon {
@@ -242,7 +243,7 @@ body {
 
 .about_me {
   width: 900px;
-  margin: 20px auto;
+  margin: 0px auto;
   /*border: 3px solid black;*/
 }
 
@@ -379,8 +380,7 @@ span.border {
 
 .projects {
   width: 1000px;
-  margin: auto;
-  margin-bottom: 50px;
+  margin: 30px auto;
 }
 
 .project {
@@ -388,10 +388,10 @@ span.border {
 }
 
 .project_img_container {
-  width: 24%;
-  margin: 2%;
+  width: 27%;
+  margin: 1%;
   cursor: pointer;
-  border: 1px solid blue;
+  border: 1px solid black;
   display: inline-block;
   justify-content: center;
   vertical-align: center;
@@ -403,8 +403,8 @@ span.border {
 }
 
 .project_img_container_nolink {
-  width: 24%;
-  margin: 2%;
+  width: 27%;
+  margin: 1%;
   display: inline-block;
   border: 1px solid black;
   float: left;
@@ -416,7 +416,7 @@ span.border {
 }
 
 .project_details {
-  width: 68%;
+  width: 67%;
   margin: 1px 2%;
   display: inline-block;
 }
