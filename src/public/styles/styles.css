@@ -244,7 +244,7 @@ body {
 
 .about_me {
   width: 900px;
-  margin: 0px auto;
+  margin: 20px auto;
   /*border: 3px solid black;*/
 }
 
@@ -492,8 +492,8 @@ span.border {
 }
 
 .resume {
-  width: 80%;
-  margin: 20px 10%;
+  width: 1000px;
+  margin: 20px auto;
   display: flex
   justify-content: center;
 }
@@ -504,7 +504,13 @@ span.border {
   border: 1px solid black;
 }
 
+@media screen and (max-width: 1050px) {
+  .resume {
+    width: 80%;
+    margin: 20px 10%;
+  }
 
+}
 
 /*=======================================*/
 /*=======================================*/

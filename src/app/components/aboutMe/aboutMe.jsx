@@ -17,7 +17,7 @@ export default class AboutMe extends React.Component {
             I'm a full stack software engineer and I've found that this is my passion.
             It's a little cliche to say,
             but I've actually found myself losing sleep over the sheer excitement of trying to figure out what to put on next for this website.
-          </p> <br/>
+          </p>
           <p className="about_me_content">
             Software engineering feels like solving puzzles to me.
             Trying to figure out the best algorithm to better optimize a solution or trying to figure out how to manipulate and create components.
@@ -26,15 +26,7 @@ export default class AboutMe extends React.Component {
             The boundless field also constantly offers something new to learn and tackle,
             unlocking endless possibilities allowing me to stay engaged.
           </p>
-        </div>
 
-        <div className="parallax_ininOffice2">
-          <div className="caption">
-            <span className="border">MY HISTORY</span>
-          </div>
-        </div>
-
-        <div className="about_me">
           <span className="about_me_header">My History:</span>
           <p className="about_me_content">
             I graduated from the University of California, Irvine as a Computer Engineer.
@@ -47,15 +39,7 @@ export default class AboutMe extends React.Component {
             I immediately fell back in love with it and knew that this was what I wanted to be doing.
             I decided to quit my job and move back to the bay area to re-learn coding and become a software engineer.
           </p>
-        </div>
 
-        <div className="parallax_mtbaldy">
-          <div className="caption">
-            <span className="border">MY FUTURE</span>
-          </div>
-        </div>
-
-        <div className="about_me">
           <span className="about_me_header">My Future:</span>
           <p className="about_me_content">
             Currently, I’m looking for somewhere I can make a meaningful impact while simultaneously grow as an engineer.
@@ -63,7 +47,6 @@ export default class AboutMe extends React.Component {
             I’m confident in my abilities to learn new languages.
           </p>
         </div>
-
 
         <div className="parallax_grandCanyon">
           <div className="caption">
