@@ -547,21 +547,22 @@ body {
 /*=============== FOOTER=== =============*/
 
 .footer_content {
-  height: 70px;
-  padding: 1%;
+  height: 100%;
+  vertical-align: middle;
+  padding: 8px 0;
 }
 
 .footer_text {
   color: white;
-  height: 20%;
-  margin-bottom: 1%;
+  height: 12px;
+  margin-bottom: 10px;
   text-align: center;
   vertical-align: middle;
 }
 
 .footer_links: {
   display: block;
-  height: 79%;
+  height: 32px;
 }
 
 .footer_icons {
