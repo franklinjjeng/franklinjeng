@@ -128,6 +128,11 @@ body {
   vertical-align: middle;
 }
 
+.blurb_content {
+  padding: 2.5%;
+  margin: 0;
+}
+
 /*---------------------------------------*/
 
 /*----------- home navi section ---------*/
@@ -449,7 +454,8 @@ body {
   padding: 0px 5%;
   padding-bottom: 10px;
   margin-top: 10px;
-  border-right: 3px solid black;
+  vertical-align: top;
+  /*border-right: 3px solid black;*/
 }
 
 .contact_name {
@@ -466,9 +472,10 @@ body {
 .contact_skills {
   display: inline-block;
   width: 40%;
-  margin: 5%;
+  margin: 10px 5%;
   /*border: 1px solid red;*/
-  float: right;
+  vertical-align: top;
+  /*float: right;*/
 }
 
 .resume {
@@ -541,17 +548,23 @@ body {
 
 /*=============== FOOTER=== =============*/
 
-
+.footer_content {
+  height: 100%;
+  vertical-align: middle;
+  padding: 8px 0;
+}
 
 .footer_text {
   color: white;
-  height: 20%;
+  height: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .footer_links: {
   display: block;
-  height: 78%;
-  margin: 1%;
+  height: 32px;
 }
 
 .footer_icons {
