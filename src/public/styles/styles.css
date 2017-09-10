@@ -25,7 +25,7 @@ body {
   border: none;
   position: relative;
   background-color: #282828;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 0px;
   border-radius: 0 !important;
 }
@@ -50,18 +50,31 @@ body {
   color: #aaaaaa;  /*Sets the text hover color on navbar*/
 }
 
-
-/*looks like this does nothing right now*/
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
- a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: white; /*BACKGROUND color for active*/
-  background-color: #282828;
-}
-
 /*-- sets the nav buttons--*/
 .navbar-default .navbar-nav > li > a {
   color: white; /*Change active text color here*/
   background-color: #282828;
+}
+
+.navbar .navbar-default > .container > .navbar-header > li.navbar-brand > a {
+  background-color: #282828;
+}
+
+/*removes bullet from home button*/
+.navbar >.container .navbar-brand {
+  list-style-type: none;
+}
+
+/*update color of home button*/
+.navbar >.container .navbar-brand > a {
+  color: white;
+  text-decoration: none;
+}
+
+/*update hover effects of home button*/
+.navbar >.container .navbar-brand > a:hover {
+  color: #aaaaaa;
+  text-decoration: none;
 }
 
 /*---------------------------------------*/
