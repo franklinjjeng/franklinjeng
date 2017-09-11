@@ -17,9 +17,4 @@ module.exports = {
     ]
   },
   devtool: 'source-map',
-  plugin: [
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': '"production"'
-    })
-  ]
 };
