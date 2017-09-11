@@ -8,7 +8,7 @@ import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Home from './components/home/Home.jsx';
 import NoPage404 from './components/NoPage404.jsx';
-import Projects from './components/Projects/projects.jsx';
+import Projects from './components/projects/Projects.jsx';
 
 function createElement(Component, props) {
   return <Component key={`RouteComponent-${props.location.pathname}`} {...props} />;
