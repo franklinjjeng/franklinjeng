@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Project from './project.jsx';
+import Project from './Project.jsx';
 // import projData from './projData.json';
 
 export default class Projects extends React.Component {

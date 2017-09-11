@@ -2,8 +2,8 @@ import React from 'react';
 import { browserHistory } from 'react-router';
 
 // Components
-import Footer from './footer/footer.jsx';
-import Navbar from './navigation/navbar.jsx';
+import Footer from './footer/Footer.jsx';
+import Navbar from './navigation/Navbar.jsx';
 
 
 export default class App extends React.Component {
