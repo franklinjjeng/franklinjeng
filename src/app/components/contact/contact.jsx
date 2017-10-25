@@ -5,9 +5,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="contact">
-        <div className="coming-soon">
-          Removing my resume for the time being. Not currently looking for a new position at the moment.
-        </div>
+        {/*<div className="coming-soon">
+          coming soon: contact and resume
+        </div>*/}
         {/*<div className="contact_header">Get In Touch: </div>
         <div className="contact_content">
           <div className="contact_info">
@@ -46,6 +46,8 @@ export default class Contact extends React.Component {
     );
   }
 }
+
+// Removing my resume for the time being. Not currently looking for a new position at the moment.
 
         // <div className="resume">
         //   <a className="download_img" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">
