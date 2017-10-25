@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
         {/*<div className="coming-soon">
           coming soon: contact and resume
         </div>*/}
-        <div className="contact_header">Get In Touch: </div>
+        {/* <div className="contact_header">Get In Touch: </div>
         <div className="contact_content">
           <div className="contact_info">
             <span className="contact_name">
@@ -40,7 +40,7 @@ export default class Contact extends React.Component {
               <a className="download-link" href="https://assets.franklinjeng.com/contact/JengFranklinResume.pdf" target="_blank">Download Resume</a>
             </div>
           </div>
-        </div>
+        </div>*/}
 
       </div>
     );
