@@ -77,6 +77,37 @@ body {
   text-decoration: none;
 }
 
+.nav-bar {
+  color: white;
+  background-color: #282828;
+  display: inline-block;
+  width: 100%
+}
+
+.nav-home {
+  display: inline-block;
+}
+
+.nav-home:hover {
+  color: #aaaaaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: inline-block;
+}
+
+.nav-button {
+  display: inline-block;
+}
+
+.nav-button:hover {
+  color: #aaaaaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /*---------------------------------------*/
 
 
