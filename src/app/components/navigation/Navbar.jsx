@@ -20,7 +20,7 @@ export default class NewNavbar extends React.Component {
     const pathname = this.props.props.location.pathname;
     return (
       <div className="nav-bar">
-        <div className="nav-home">
+        <div className="nav-button nav-home">
           <a onClick={this.updatePath} name="/">
             FJeng
           </a>

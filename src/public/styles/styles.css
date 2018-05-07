@@ -77,29 +77,30 @@ body {
   text-decoration: none;
 }
 
+/* ==== CSS for new navbar being built ==== */
 .nav-bar {
   color: white;
   background-color: #282828;
   display: inline-block;
-  width: 100%
+  width: 100%;
+  height: 50px;
+  padding: 5px;
 }
 
 .nav-home {
-  display: inline-block;
-}
-
-.nav-home:hover {
-  color: #aaaaaa;
-  text-decoration: none;
-  cursor: pointer;
+  font-size: 1.25rem;
 }
 
 .nav-menu {
   display: inline-block;
+  float: right;
 }
 
 .nav-button {
   display: inline-block;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .nav-button:hover {
@@ -107,6 +108,7 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+/* ======================================== */
 
 /*---------------------------------------*/
 
