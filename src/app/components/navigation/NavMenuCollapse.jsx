@@ -13,7 +13,6 @@ export default class NewNavbar extends React.Component {
   openMenu(e) {
     e.preventDefault();
     this.setState({ showMenu: !this.state.showMenu })
-    console.log(e.toggleClass)
   }
 
   render() {
