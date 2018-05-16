@@ -14,8 +14,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <OldNavbar className="navbar" props={this.props} />
-        <Navbar className="navbar" props={this.props} />
+        {/* <OldNavbar className="navbar" props={this.props} /> */}
+        <Navbar props={this.props} />
         <div className="app-body">
           {this.props.children}
         </div>

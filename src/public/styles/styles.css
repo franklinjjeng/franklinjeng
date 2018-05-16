@@ -118,6 +118,7 @@ body {
 .nav-menu {
   display: inline-block;
   float: right;
+  height: 40px;
 }
 
 .nav-button {
@@ -125,6 +126,8 @@ body {
   color: white;
   margin-left: 10px;
   margin-right: 10px;
+  height: 40px;
+  line-height: 40px;
 }
 
 .nav-button:hover {
@@ -132,6 +135,38 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+.nav-hamburger {
+  display: inline-block;
+  float: right;
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-burger-line {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+/* Rotate first bar */
+.change .nav-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .nav-bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .nav-bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
 /* ======================================== */
 
 /*---------------------------------------*/
