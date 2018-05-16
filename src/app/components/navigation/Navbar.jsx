@@ -20,15 +20,17 @@ export default class NewNavbar extends React.Component {
     const pathname = this.props.props.location.pathname;
     return (
       <div className="nav-bar">
-        <div className="nav-button nav-home">
-          <a onClick={this.updatePath} name="/">
-            FJeng
+        <div className="nav-content">
+          <div className="nav-button nav-home">
+            <a onClick={this.updatePath} name="/">
+              FJeng
           </a>
-        </div>
-        <div className="nav-menu">
-          <NavButton onClick={this.updatePath} path={`/aboutme`} button={`About Me`} />
-          <NavButton onClick={this.updatePath} path={`/projects`} button={`Projects`} />
-          <NavButton onClick={this.updatePath} path={`/contact`} button={`Contact`} />
+          </div>
+          <div className="nav-menu">
+            <NavButton onClick={this.updatePath} path={`/aboutme`} button={`About Me`} />
+            <NavButton onClick={this.updatePath} path={`/projects`} button={`Projects`} />
+            <NavButton onClick={this.updatePath} path={`/contact`} button={`Contact`} />
+          </div>
         </div>
       </div>
     );

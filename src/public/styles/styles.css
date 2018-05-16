@@ -87,6 +87,30 @@ body {
   padding: 5px;
 }
 
+.nav-content {
+  width: 1100px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .nav-content {
+    width: 96%;
+    margin: auto;
+  }
+
+}
+
+/* create the hamberger menu at 550 */
+/* @media screen and (max-width: 550px) {
+
+  .nav-content {
+    width: 96%;
+    margin: auto;
+  }
+
+} */
+
 .nav-home {
   font-size: 1.25rem;
 }
