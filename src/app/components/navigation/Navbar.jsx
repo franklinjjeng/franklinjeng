@@ -3,7 +3,6 @@ import { Link } from 'react-router';
 
 // Components
 import NavMenuBurger from './NavMenuBurger.jsx';
-import NavMenuCollapse from './NavMenuCollapse.jsx';
 import NavMenu from './NavMenu.jsx';
 
 export default class Navbar extends React.Component {
