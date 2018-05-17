@@ -5,7 +5,6 @@ import { browserHistory } from 'react-router';
 import Footer from './footer/Footer.jsx';
 import Navbar from './navigation/Navbar.jsx';
 
-
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -14,7 +13,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="navbar" props={this.props} />
+        <Navbar props={this.props} />
         <div className="app-body">
           {this.props.children}
         </div>
@@ -23,7 +22,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-
-
-

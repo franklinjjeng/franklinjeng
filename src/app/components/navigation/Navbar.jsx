@@ -1,48 +1,54 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-// UI
-import NavContainer from 'react-bootstrap/lib/Navbar';
-import Nav from 'react-bootstrap/lib/Nav';
-import NavItem from 'react-bootstrap/lib/NavItem';
-import NavDropdown from 'react-bootstrap/lib/NavDropdown';
-import MenuItem from 'react-bootstrap/lib/MenuItem';
-
 // Components
+import NavMenuBurger from './NavMenuBurger.jsx';
+import NavMenuCollapse from './NavMenuCollapse.jsx';
+import NavMenuFull from './NavMenuFull.jsx';
 
 export default class Navbar extends React.Component {
-
   constructor(props) {
     super(props);
-    this.updatePath = this.updatePath.bind(this);
+    this.state = {
+      width: 0,
+      showMenu: false,
+      collapseSize: 600
+    };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    this.openMenu = this.openMenu.bind(this);
   }
 
-  updatePath(e) {
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth });
+    if (window.innerWidth > this.state.collapseSize) {
+      this.setState({ showMenu: false })
+    }
+  }
+
+  openMenu(e) {
     e.preventDefault();
-    const url = e.target.name;
-    this.props.props.router.push(url);
+    this.setState({ showMenu: !this.state.showMenu });
   }
-  
-  render() {
-    const pathname = this.props.props.location.pathname;
-    return (
-      <NavContainer>
-        <NavContainer.Header>
-          <NavContainer.Brand>
-            <NavItem onClick={this.updatePath} eventKey={1} name="/">FJeng</NavItem>
-          </NavContainer.Brand>
-          <NavContainer.Toggle />
-        </NavContainer.Header>
 
-        <NavContainer.Collapse>
-          <Nav className="pull-right">
-            <NavItem onClick={this.updatePath} eventKey={2} name="/aboutme">About Me</NavItem>
-            <NavItem onClick={this.updatePath} eventKey={3} name="/projects">Projects</NavItem>
-            <NavItem onClick={this.updatePath} eventKey={4} name="/contact">Contact</NavItem>
-          </Nav>
-        </NavContainer.Collapse>
-      </NavContainer>
+  render() {
+    return (
+      <div className="nav-bar">
+        <div className="nav-content">
+          <Link className="nav-home nav-button" to="/">FJeng</Link>
+          {/* {this.state.width}{JSON.stringify(this.state.showMenu)} */}
+          {this.state.width > this.state.collapseSize ? <NavMenuFull /> : <NavMenuBurger onClick={this.openMenu} />}
+        </div>
+        {this.state.showMenu ? <NavMenuCollapse /> : ''}
+      </div>
     );
   }
 }
-

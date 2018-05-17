@@ -2,6 +2,15 @@ html {
   height: 100%;
 }
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
 body {
   font-size: 14px;
   
@@ -10,6 +19,8 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 
@@ -19,15 +30,6 @@ body {
   position: relative;
   background: white;
   background: linear-gradient(to bottom right, #fff, #fff, #e5e5e5);
-}
-
-.navbar {
-  border: none;
-  position: relative;
-  background-color: #282828;
-  padding: 5px;
-  margin-bottom: 0px;
-  border-radius: 0 !important;
 }
 
 .app-body {
@@ -44,38 +46,99 @@ body {
   align-content: center;
 }
 
-/*--------- bootstrap CSS changes -------*/
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #aaaaaa;  /*Sets the text hover color on navbar*/
-}
-
-/*-- sets the nav buttons--*/
-.navbar-default .navbar-nav > li > a {
-  color: white; /*Change active text color here*/
-  background-color: #282828;
-}
-
-.navbar .navbar-default > .container > .navbar-header > li.navbar-brand > a {
-  background-color: #282828;
-}
-
-/*removes bullet from home button*/
-.navbar >.container .navbar-brand {
-  list-style-type: none;
-}
-
-/*update color of home button*/
-.navbar >.container .navbar-brand > a {
+.nav-bar {
   color: white;
+  background-color: #282828;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  /* padding: 5px; */
+}
+
+.nav-content {
+  width: 1100px;
+  margin: auto;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .nav-content {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+}
+
+.nav-home {
+  font-size: 1.25rem;
+}
+
+.nav-menu {
+  display: inline-block;
+  float: right;
+  height: 40px;
+}
+
+.nav-button {
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  line-height: 40px;
   text-decoration: none;
 }
 
-/*update hover effects of home button*/
-.navbar >.container .navbar-brand > a:hover {
+.nav-button-expanded {
+  /* display: inline-block; */
+  margin: 0px;
+  color: white;
+  width: 100%;
+  /* height: 40px; */
+  /* line-height: 40px; */
+  padding-left: 10%;
+  background-color: #282828;
+}
+
+.nav-button:hover {
   color: #aaaaaa;
   text-decoration: none;
+  cursor: pointer;
 }
+
+.nav-hamburger {
+  display: inline-block;
+  float: right;
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-burger-line {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+/* Rotate first bar */
+.change .nav-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .nav-bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .nav-bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+/* ======================================== */
 
 /*---------------------------------------*/
 
@@ -112,6 +175,7 @@ body {
   display: inline-block;
   width: 21%;
   margin: 2%;
+  vertical-align: top;
 }
 
 .profile_photo {
@@ -138,7 +202,7 @@ body {
   width: 71%;
   padding: 5px;
   font-size: 15px;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .blurb_content {
@@ -168,7 +232,7 @@ body {
 .home_nav_img {
   max-width: 100%;
   max-height: 100%;
-  width: 1000px;
+  /* width: 1000px; */
   padding: 24%;
   display: block;
   text-align: center;
@@ -358,7 +422,7 @@ body {
   cursor: pointer;
   border: 1px solid black;
   display: inline-block;
-  float: left;
+  vertical-align: top;
   background: black;
 }
 
@@ -371,12 +435,13 @@ body {
   margin: 5px 1%;
   border: 1px solid black;
   display: inline-block;
-  float: left;
+  vertical-align: top;
 }
 
 .project_img {
-  max-width: 100.1%;
-  /*max-height: 100%;*/
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
 }
 
 .project_img:hover {
@@ -386,6 +451,7 @@ body {
 .project_img_nolink {
   max-width: 100%;
   max-height: 100%;
+  display: flex;
 }
 
 .project_details {
@@ -412,6 +478,7 @@ body {
 
 .project_blurb {
   font-style: italic;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -562,7 +629,7 @@ body {
 /*=============== FOOTER=== =============*/
 
 .footer_content {
-  height: 100%;
+  height: 52px;
   vertical-align: middle;
   padding: 8px 0;
 }
@@ -575,7 +642,7 @@ body {
   vertical-align: middle;
 }
 
-.footer_links: {
+.footer_links {
   display: block;
   height: 32px;
 }
