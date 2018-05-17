@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 // Components
 import NavMenuBurger from './NavMenuBurger.jsx';
 import NavMenuCollapse from './NavMenuCollapse.jsx';
-import NavMenuFull from './NavMenuFull.jsx';
+import NavMenu from './NavMenu.jsx';
 
 export default class Navbar extends React.Component {
   constructor(props) {
@@ -45,9 +45,9 @@ export default class Navbar extends React.Component {
         <div className="nav-content">
           <Link className="nav-home nav-button" to="/">FJeng</Link>
           {/* {this.state.width}{JSON.stringify(this.state.showMenu)} */}
-          {this.state.width > this.state.collapseSize ? <NavMenuFull /> : <NavMenuBurger onClick={this.openMenu} />}
+          {this.state.width > this.state.collapseSize ? <NavMenu menuClass="nav-menu" /> : <NavMenuBurger onClick={this.openMenu} />}
         </div>
-        {this.state.showMenu ? <NavMenuCollapse /> : ''}
+        {this.state.showMenu ? <NavMenu menuClass="nav-menu-expanded" buttonClass="nav-button-expanded" /> : ''}
       </div>
     );
   }
