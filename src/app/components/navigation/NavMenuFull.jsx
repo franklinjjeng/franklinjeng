@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-export default function NavButton(props) {
+export default function NavMenuFull(props) {
   return (
     <div className="nav-menu">
       <Link className="nav-button" to="/aboutme">About Me</Link>
