@@ -4,7 +4,7 @@ export default [
     title: 'Twine',
     blurb: 'Browser-based word processor powered with Git',
     github: 'https://github.com/franklinjjeng/twine',
-    link: 'http://twinedocs.com',
+    link: 'N/A',
     description:
       'The mission of this project was to create a simple easy to use word processor online that allows for collaboration for larger projects with the power of Git. Git is a great tool, but can be intimidating to use for non-technical users. Twine abstracts away the complexity of it to create an easy user experience.',
     contribution:
